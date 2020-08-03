@@ -60,7 +60,7 @@ namespace KestrelMock.Services
                 body = await reader.ReadToEndAsync();
             }
 
-            var matchResult = ResponseMatcher.FindMatchingResponseMock(path, body, mappings);
+            var matchResult = ResponseMatcher.FindMatchingResponseMock(path, body, context.Request.Method, mappings);
 
             if (matchResult is null)
             {

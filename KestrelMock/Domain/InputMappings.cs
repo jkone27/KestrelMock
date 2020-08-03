@@ -1,4 +1,6 @@
-﻿namespace KestrelMock.Domain
+﻿using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http;
+
+namespace KestrelMock.Domain
 {
     public class InputMappings
     {

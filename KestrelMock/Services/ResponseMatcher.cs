@@ -5,7 +5,7 @@ namespace KestrelMock.Services
 {
     public static class ResponseMatcher
     {
-        public static Response FindMatchingResponseMock(string path, string body, InputMappings mapping)
+        public static Response FindMatchingResponseMock(string path, string body, string method, InputMappings mapping)
         {
             Response result = null;
 
