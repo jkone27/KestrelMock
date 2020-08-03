@@ -9,6 +9,8 @@ namespace KestrelMock.Services
         {
             Response result = null;
 
+            if(mapping.)
+
             if (mapping.PathMapping.ContainsKey(path))
             {
                 result = mapping.PathMapping[path].Response;
